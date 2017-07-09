@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<title>Arbok | Pokedex</title>
+		<link rel = "stylesheet" href = "Pokemon.css">
+		<link rel = "stylesheet" href = "ProgressBar.css">
+		<script>
+			$(".meter > span").each(function() {
+					$(this)
+						.data("origWidth", $(this).width())
+						.width(0)
+						.animate({
+							width: $(this).data("origWidth")
+						}, 1200);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<h6><a href = "Ekans.html"><hr class = "top1"></hr></a>
+			<a href = "002_Picachu.html"><hr class = "top2"></hr></a>
+			<hr class = "heading1"><font class = "heading">Arbok</font><hr class = "heading2"></h6>
+		</div>
+		
+		<div class = "box">
+			<div class = "body">
+				<div class = "profile"><img src = "Arbok.png"></div>
+					<div class = "detail"><font class = "detail">This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.</font></div>
+					<div class = "detail1">
+						<div class = "detail2"><font class = "detail4" color = "#ffffff">Height : <font class = "detail">&nbsp;11' 06''</font><hr>Weight : <font class = "detail">&nbsp;143.3 lbs</font><hr>Gender : <font class = "detail">&nbsp;Male,Female</font><hr></font></div>
+						<div class = "detail3"><font class = "detail4" color = "#ffffff">Category : <font class = "detail">&nbsp;Cobra</font><hr>Ability : <font class = "detail">&nbsp;Shed Skin , Intimidate</font><hr></font></div>
+					</div>
+				</div>
+			
+			<div class = "ability">
+				<div class = "ability1">
+					<div class = "ability2">
+						HP<p>
+						Attack<p>
+						Defense<p>
+						Spec_Attck<p>
+						Spec_Defns<p>
+						Speed
+					</div>
+					
+					<div class = "ability3">
+						<div class="meter">
+							<span style="width: 30%"></span>
+						</div>
+								
+						<div class="meter red">
+							<span style="width: 40%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 30%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 30%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 30%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 40%"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "detail">
+					<font class = "heading2">Type<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+					</div>
+				</div>
+				
+				<div class = "detail" style = "margin-top : 2%">
+					<font class = "heading2">Weaknesses<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #666600"><font class = "details" style = "color : white; font-weight : bold">Ground</font></div>
+						<div class = "square1" style = "margin-left : 10% ; background-color : #cc33ff"><font class = "details" style = "color : white; font-weight : bold">Psychic</font></div>
+					</div>
+				</div>
+			</div>
+				
+			<div class = "body1">
+				<font class = "detail4" style = "font-size : 35px ; color : #ffffff">Evolutions</font><p>
+				<a href = "Ekans.html"><img class = "set" src = "Ekans.png" style = "margin-left : 22%"></a>
+				<a href = "Arbok.html"><img class = "set" src = "Arbok.png"></a>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 32%">Ekans</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 27%">Arbok</font>
+				<div class = "square" style = "margin : 5px 28%">
+						<div class = "square1" style = "margin-left : 1%; background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 15px">
+						<div class = "square1" style = "margin-left : 23%; background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+				</div>
+			</div>
+			</div>
+	</body>
+</html>

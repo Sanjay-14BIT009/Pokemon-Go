@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Bulbasaur | Pokedex</title>
+		<link rel = "stylesheet" href = "Pokemon.css">
+		<link rel = "stylesheet" href = "ProgressBar.css">
+		<script>
+			$(".meter > span").each(function() {
+					$(this)
+						.data("origWidth", $(this).width())
+						.width(0)
+						.animate({
+							width: $(this).data("origWidth")
+						}, 1200);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<h6><a href = "steelix.html"><hr class = "top1"></hr></a>
+			<a href = "ivysaur.html"><hr class = "top2"></hr></a>
+			<hr class = "heading1"><font class = "heading">Bulbasaur</font><hr class = "heading2"></h6>
+		</div>
+		
+		<div class = "box">
+			<div class = "body">
+				<div class = "profile"><img src = "Bulbasaur.jpeg"></div>
+					<div class = "detail"><font class = "detail">Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.</font></div>
+					<div class = "detail1">
+						<div class = "detail2"><font class = "detail4" color = "#ffffff">Height : <font class = "detail">&nbsp;2' 04''</font><hr>Weight : <font class = "detail">&nbsp;15.2 lbs</font><hr>Gender : <font class = "detail">&nbsp;Male,Female</font><hr></font></div>
+						<div class = "detail3"><font class = "detail4" color = "#ffffff">Category : <font class = "detail">&nbsp;Seed</font><hr>Ability : <font class = "detail">&nbsp;Overgrow</font><hr></font></div>
+					</div>
+				</div>
+			
+			<div class = "ability">
+				<div class = "ability1">
+					<div class = "ability2">
+						HP<p>
+						Attack<p>
+						Defense<p>
+						Spec_Attck<p>
+						Spec_Defns<p>
+						Speed
+					</div>
+					
+					<div class = "ability3">
+						<div class="meter">
+							<span style="width: 30%"></span>
+						</div>
+								
+						<div class="meter red">
+							<span style="width: 50%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 30%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 40%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 30%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 60%"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "detail">
+					<font class = "heading2">Type<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #2d862d"><font class = "details" style = "color : white; font-weight : bold">Grass</font></div>
+						<div class = "square1" style = "margin-left : 10%; background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+					</div>
+				</div>
+				
+				<div class = "detail" style = "margin-top : 2%">
+					<font class = "heading2">Weaknesses<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #ff3300"><font class = "details" style = "color : white; font-weight : bold">Fire</font></div>
+						<div class = "square1" style = "margin-left : 10% ; background-color : #bf4040"><font class = "details" style = "color : white; font-weight : bold">Flying</font></div>
+						<div class = "square1" style = "margin-left : 10%"><font class = "details" style = "color : white; font-weight : bold">Ice</font></div>
+						<div class = "square1" style = "margin-top : 2% ; background-color : #cc33ff"><font class = "details" style = "color : white; font-weight : bold">Psychic</font></div>
+					</div>
+				</div>
+			</div>
+				
+			<div class = "body1">
+				<font class = "detail4" style = "font-size : 35px ; color : #ffffff">Evolutions</font><p>
+				<a href = "bulbasaur.html"><img class = "set" src = "Bulbasaur.jpeg"></a>
+				<a href = "ivysaur.html"><img class = "set" src = "Ivysaur.png"></a>
+				<a href = "venusaur.html"><img class = "set" src = "Venusaur.png"></a><br>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 10%">Bulbsaur</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 24%">Ivyaur</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 23%">Venusaur</font><p>
+				<div class = "square" style = "margin : 5px 15px">
+						<div class = "square1" style = "background-color : #2d862d"><font class = "details" style = "color : white; font-weight : bold">Grass</font></div>
+						<div class = "square1" style = "margin-left : 1%; background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 15px">
+						<div class = "square1" style = "background-color : #2d862d ; margin-left : 7%"><font class = "details" style = "color : white; font-weight : bold">Grass</font></div>
+						<div class = "square1" style = "margin-left : 1%; background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 15px">
+						<div class = "square1" style = "background-color : #2d862d ; margin-left : 7%"><font class = "details" style = "color : white; font-weight : bold">Grass</font></div>
+						<div class = "square1" style = "margin-left : 1%; background-color : purple"><font class = "details" style = "color : white; font-weight : bold">Poison</font></div>
+				</div>
+			</div>
+			</div>
+	</body>
+</html>

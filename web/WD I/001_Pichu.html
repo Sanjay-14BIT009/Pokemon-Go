@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>Pichu | Pokemon</title>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<link rel = "stylesheet" href = "Pokemon.css">
+		<link rel = "stylesheet" href = "ProgressBar.css">
+		<script>
+			$(".meter > span").each(function() {
+					$(this)
+						.data("origWidth", $(this).width())
+						.width(0)
+						.animate({
+							width: $(this).data("origWidth")
+						}, 1200);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<h6><a href = "035_Steelix.html"><hr class = "top1"></hr></a>
+			<a href = "002_Picachu.html"><hr class = "top2"></hr></a>
+			<hr class = "heading1"><font class = "heading">Pichu</font><hr class = "heading2"></h6>
+		</div>
+		
+		<div class = "box">
+			<div class = "body">
+				<div class = "profile"><img src = "Pichu.PNG"></div>
+					<div class = "detail"><font class = "detail">Pichu charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this Pokémon.</font></div>
+					<div class = "detail1">
+						<div class = "detail2"><font class = "detail4" color = "#ffffff">Height : <font class = "detail">&nbsp;1' 00''</font><hr>Weight : <font class = "detail">&nbsp;4.4 lbs</font><hr>Gender : <font class = "detail">&nbsp;Male,Female</font><hr></font></div>
+						<div class = "detail3"><font class = "detail4" color = "#ffffff">Category : <font class = "detail">&nbsp;Tiny Mouse</font><hr>Ability : <font class = "detail">&nbsp;Static</font><hr></font></div>
+					</div>
+				</div>
+			
+			<div class = "ability">
+				<div class = "ability1">
+					<div class = "ability2">
+						HP<p>
+						Attack<p>
+						Defense<p>
+						Spec_Attck<p>
+						Spec_Defns<p>
+						Speed
+					</div>
+					
+					<div class = "ability3">
+						<div class="meter">
+							<span style="width: 10%"></span>
+						</div>
+								
+						<div class="meter red">
+							<span style="width: 20%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 10%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 20%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 20%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 30%"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "detail">
+					<font class = "heading2">Type<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #ffff00"><font class = "details" style = "color : black; font-weight : bold">Electric</font></div>
+					</div>
+				</div>
+				
+				<div class = "detail" style = "margin-top : 2%">
+					<font class = "heading2">Weaknesses<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #666600"><font class = "details" style = "color : white; font-weight : bold">Ground</font></div>
+					</div>
+				</div>
+			</div>
+				
+			<div class = "body1">
+				<font class = "detail4" style = "font-size : 35px ; color : #ffffff">Evolutions</font><p>
+				<a href = "001_Pichu.html"><img class = "set" src = "Pichu.PNG"></a>
+				<a href = "002_Picachu.html"><img class = "set" src = "Picachu.jpeg"></a>
+				<a href = "003_Raichu.html"><img class = "set" src = "Raichu.PNG"></a><br>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 11%">Pichu</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 26%">Picachu</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 25%">Raichu</font><p>
+				<div class = "square" style = "margin : 5px 8%">
+						<div class = "square1" style = "background-color : #ffff00"><font class = "details" style = "color : black; font-weight : bold">Electric</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 18%">
+						<div class = "square1" style = "background-color : #ffff00 ; margin-left : 21%"><font class = "details" style = "color : black; font-weight : bold">Electric</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 15px">
+						<div class = "square1" style = "background-color : #ffff00 ; margin-left : 21%"><font class = "details" style = "color : black; font-weight : bold">Electric</font></div>
+				</div>
+			</div>
+			</div>
+	</body>
+</html>

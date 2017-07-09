@@ -1,0 +1,279 @@
+body
+{
+	margin : 0;
+}
+
+div.top
+{
+	width : 100%;
+	height : 45px;
+	background : url("Pokemon.png");
+	background-size : 450px 45px;
+	margin : 0px;
+}
+
+div.header
+{
+	width : 100%;
+	background-color : #FFFFFF;
+}
+
+div.outer
+{
+	height : 960%;
+	background-image : url("bg2.JPG");
+}
+
+div.content
+{
+	width : 78%;
+	height : 100%;
+	margin-left : 155px;
+	background : url("bg.JPG");
+}
+
+ul.topnav 
+{
+    list-style-type: none;
+    margin: 0% 25%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+ul.topnav li 
+{
+	float: left;
+	border-bottom : #2e4b90 solid 10px;
+}
+
+ul.topnav li a 
+{
+	width : 200px;
+	height : 80px;
+	background-color : #1a1a1a;
+    display: block;
+	font-size : 125%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top : 20px;
+    text-decoration: none;
+	border : 1px solid #F5F5F5;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #6666ff; }
+
+ul.topnav li a.active {background-color: #cccccc; color : #2e4b90; font-weight : bold ; height : 20px; margin-bottom : 10px;}
+
+ul.topnav li.right {float: right; height : 60px; margin-top : 10px; margin-left : 2px;}
+
+.i
+{
+	border-radius : 0% 15%;
+	border-bottom-style : groove;
+	border-top-style : ridge;
+	border-left-style : groove;
+	border-right-style : ridge;
+	border : 7px solid #bf40bf;
+}
+table
+{
+margin:10px;
+}
+
+.animated:hover 
+{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  
+}
+
+@keyframes shake 
+{
+  10%, 90% 
+  {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% 
+  {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% 
+  {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% 
+  {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+img
+{
+	height:150px;
+	width:225px;
+	spacing:20px;
+	padding:10px;
+	background-color: #3399ff;
+	border-radius:12px;
+	border-color:red;
+}
+
+figcaption
+{
+	color: black;
+	text-align:center;
+	font-size:40px;
+	font-family : bookman old style;
+}
+
+ .loader 
+ { 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 100%; 
+	z-index: 9999; 
+	background: url('ball1.gif') 50% 50% no-repeat rgb(249,249,249); 
+}
+
+font.title
+{
+        font-family: 'Comic Sans MS' ; 
+        color: #31519b ; 
+        font-size: 50px
+}
+
+font.title:hover
+{
+        color: #31519b ; 
+}
+
+details
+{
+	padding : 3px 5px 3px;
+}
+
+summary
+{
+	background : url("bg2.JPG");
+	text-align : justify;
+	width : 100%;
+	height : 10%;
+}
+
+summary::-webkit-details-marker
+{
+	display : none;
+}
+
+summary:after
+{
+	content : "+";
+	color : #ffffff;
+	float : left;
+	font-weight : bold;
+	text-align : center;
+	width : 30px;
+}
+
+details[open] summary:after
+{
+	content : "-";
+}
+
+input[type=text],[type=number],[type=range]
+{
+    border: none;
+    width : 25%;
+    border-bottom: 2px solid #323232;
+}
+
+input[type=range]
+{
+    border: none;
+    width : 20%;
+    border-bottom: 2px solid #323232;
+}
+
+textarea
+{
+    border: none;
+    width : 25%;
+    border-bottom: 2px solid #323232;
+}
+
+input[type=text]:focus 
+{
+    border: 3px solid #555;
+}
+
+select
+{
+    border: none;
+    width : 25%;   
+    border-bottom: 2px solid #323232;
+}
+
+div.slides
+{
+	height : 1000px;
+	padding-top : 10px;
+	margin : 0px;
+}
+
+.mySlides 
+{
+	display : none;
+        background: none;
+}
+
+.mySlides2
+{
+	display : none;
+        width : 600px;
+        height: 300px;
+        background : url("bg2.JPG");
+}
+
+.mySlides3
+{
+	display : none;
+        width : 400px;
+        height: 300px;
+        background : url("bg2.JPG");
+}
+
+.mySlides4
+{
+	display : none;
+        width : 400px;
+        height: 300px;
+        background : url("bg2.JPG");
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.w3-badge 
+{
+	height:13px;
+	width:13px;
+	padding:0px;
+}
+
+div.slides2
+{
+	height : 1000px;
+	padding-top : 10px;
+	margin-left : 20%;
+        margin-rigth : 20%;
+}

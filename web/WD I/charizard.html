@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>Charizard | Pokedex</title>
+		<link rel = "stylesheet" href = "Pokemon.css">
+		<link rel = "stylesheet" href = "ProgressBar.css">
+		<script>
+			$(".meter > span").each(function() {
+					$(this)
+						.data("origWidth", $(this).width())
+						.width(0)
+						.animate({
+							width: $(this).data("origWidth")
+						}, 1200);
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div>
+			<h6><a href = "charmeleon.html"><hr class = "top1"></hr></a>
+			<a href = "squirtle.html"><hr class = "top2"></hr></a>
+			<hr class = "heading1"><font class = "heading">Charizard</font><hr class = "heading2"></h6>
+		</div>
+		
+		<div class = "box">
+			<div class = "body">
+				<div class = "profile"><img src = "Charizard.png"></div>
+					<div class = "detail"><font class = "detail">Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.</font></div>
+					<div class = "detail1">
+						<div class = "detail2"><font class = "detail4" color = "#ffffff">Height : <font class = "detail">&nbsp;5' 07''</font><hr>Weight : <font class = "detail">&nbsp;199.5 lbs</font><hr>Gender : <font class = "detail">&nbsp;Male,Female</font><hr></font></div>
+						<div class = "detail3"><font class = "detail4" color = "#ffffff">Category : <font class = "detail">&nbsp;Flame</font><hr>Ability : <font class = "detail">&nbsp;Blaze</font><hr></font></div>
+					</div>
+				</div>
+			
+			<div class = "ability">
+				<div class = "ability1">
+					<div class = "ability2">
+						HP<p>
+						Attack<p>
+						Defense<p>
+						Spec_Attck<p>
+						Spec_Defns<p>
+						Speed
+					</div>
+					
+					<div class = "ability3">
+						<div class="meter">
+							<span style="width: 30%"></span>
+						</div>
+								
+						<div class="meter red">
+							<span style="width: 50%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 30%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 40%"></span>
+						</div>
+						
+						<div class="meter animate">
+							<span style="width: 30%"><span></span></span>
+						</div>
+						
+						<div class="meter red">
+							<span style="width: 60%"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "detail">
+					<font class = "heading2">Type<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #ff3300"><font class = "details" style = "color : white; font-weight : bold">Fire</font></div>
+						<div class = "square1" style = "margin-left : 10% ; background-color : #bf4040"><font class = "details" style = "color : white; font-weight : bold">Flying</font></div>
+					</div>
+				</div>
+				
+				<div class = "detail" style = "margin-top : 2%">
+					<font class = "heading2">Weaknesses<br></font>
+					<div class = "square">
+						<div class = "square1" style = "background-color : #ffff00"><font class = "details" style = "color : black; font-weight : bold">Electric</font></div>
+						<div class = "square1" style = "margin-left : 10% ; background-color : #b35900"><font class = "details" style = "color : white; font-weight : bold">Rock</font></div>
+						<div class = "square1" style = "margin-left : 10% ; background-color : #0000ff"><font class = "details" style = "color : white; font-weight : bold">Water</font></div>
+					</div>
+				</div>
+			</div>
+				
+			<div class = "body1">
+				<font class = "detail4" style = "font-size : 35px ; color : #ffffff">Evolutions</font><p>
+				<a href = "charmander.html"><img class = "set" src = "Charmander.png"></a>
+				<a href = "charmeleon.html"><img class = "set" src = "Charmeleon.png"></a>
+				<a href = "charizard.html"><img class = "set" src = "Charizard.png"></a><br>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 9%">Charmander</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 17%">Charmeleon</font>
+				<font class = "detail4" style = "font-size : 25px ; color : #ffffff ; padding-left : 20%">Charizard</font><p>
+				<div class = "square" style = "margin : 5px 10%">
+						<div class = "square1" style = "background-color : #ff3300"><font class = "details" style = "color : white ; font-weight : bold">Fire</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 20%">
+						<div class = "square1" style = "background-color : #ff3300 ; margin-left : 21%"><font class = "details" style = "color : white ; font-weight : bold">Fire</font></div>
+				</div>
+				<div class = "square" style = "margin : 5px 15px">
+						<div class = "square1" style = "background-color : #ff3300 ; margin-left : 13%"><font class = "details" style = "color : white ; font-weight : bold">Fire</font></div>
+						<div class = "square1" style = "margin-left : 2% ; background-color : #bf4040"><font class = "details" style = "color : white; font-weight : bold">Flying</font></div>
+				</div>
+			</div>
+			</div>
+	</body>
+</html>
